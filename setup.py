@@ -24,7 +24,7 @@ setup(
     url='https://github.com/msabramo/unittest2six',
     zip_safe=False,
     install_requires=install_requires,
-    test_suite='panci.tests',
+    test_suite='test_unittest2six',
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 2',
