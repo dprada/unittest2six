@@ -15,7 +15,11 @@ backported to Python 2.6 with unittest2_. e.g.:
 - ``assertRaises`` as a context manager
 -  etc...
 
-On Python 2, this imports unittest2_. On Python 3, this imports unittest2py3k_.
+This module has no code. It's just a meta package that ``install_requires`` the
+proper dependency:
+
+- On Python 2, this ``install_requires`` unittest2_.
+- On Python 3, this ``install_requires`` unittest2py3k_.
 
 This is handy to have one dependency that you can use on both Python 2 and
 Python 3 and not have to have separate pip requirements files and tox targets.
