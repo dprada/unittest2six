@@ -45,6 +45,13 @@ Results from Tox_::
       congratulations :)
 
 
+See also
+--------
+
+- https://github.com/msabramo/unittest2/pull/1 -- This is a GitHub pull request
+  for changes that I proposed to make to unittest2 to make it work in Python 3.
+
+
 .. _unittest2: https://pypi.python.org/pypi/unittest2
 .. _unittest2py3k: https://pypi.python.org/pypi/unittest2py3k
 .. _Tox: http://tox.testrun.org/
