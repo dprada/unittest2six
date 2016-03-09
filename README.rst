@@ -7,7 +7,7 @@ unittest2six
 Simple meta package to easily get unittest2_ functionality in both Python 2 and
 Python 3.
 
-**Note: You probably don't need this package anymore, as unittest2_ supports Python 3 since version 0.6.0 (released 2014-10-28).**
+**Note: You probably don't need this package anymore**. The unittest2_ package supports Python 3 since version 0.6.0 (released 2014-10-28).
 
 This provides stuff that was added to unittest in the Python 2.7 stdlib and
 backported to Python 2.6 with unittest2_. e.g.:
