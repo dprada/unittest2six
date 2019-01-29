@@ -1,0 +1,28 @@
+package:
+  name: unittest2six
+  version: 0.0.0
+
+source:
+  path: ../../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python {{ python }}
+
+  run:
+    - python  {{ python }}
+    - pytest
+    - pytest-cov
+    - PyYAML
+    - coverage
+    - coveralls
+
+about:
+  home: https://github.com/msabramo/unittest2six
+  license: 
+  summary: ""
+  description: |
+    This is a copy of https://github.com/msabramo/unittest2six to be installed with python 3.6 and 3.7.
